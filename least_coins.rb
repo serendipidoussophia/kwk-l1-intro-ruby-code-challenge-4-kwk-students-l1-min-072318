@@ -22,13 +22,13 @@ def least_coins(cents)
     coins[;dimes]=0
     elsif dimes != 0
     coins [:dimes]=dimes
-    cents=cents-dimes*25
+    cents=cents-dimes*10
   end
   
-  pennies = cents/25
+  pennies = cents/1
   if pennies==0
     coins[;pennies]=0
     elsif pennies != 0
     coins [:pennies]=pennies
-    cents=cents-pennies*25
+    cents=cents-pennies*1
   end
