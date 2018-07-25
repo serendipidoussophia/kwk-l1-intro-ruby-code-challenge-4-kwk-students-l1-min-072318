@@ -3,7 +3,7 @@ def least_coins(cents)
   
   quarters = cents/25
   if quarters==0
-    coins[;quarters]=0
+    coins[:quarters]=0
     elsif quarters != 0
     coins [:quarters]=quarters
     cents=cents-quarters*25
