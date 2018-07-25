@@ -25,7 +25,7 @@ def least_coins(cents)
     cents=cents-dimes*10
   end
   
-  pennies = cents/1
+  pennies = cents
   if pennies==0
     coins[;pennies]=0
     elsif pennies != 0
