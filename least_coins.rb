@@ -34,3 +34,5 @@ def least_coins(cents)
   end
   print coins
 end
+
+least_coins 
