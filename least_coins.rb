@@ -25,10 +25,10 @@ def least_coins(cents)
     cents=cents-dimes*25
   end
   
-  quarters = cents/25
-  if quarters==0
-    coins[;quarters]=0
-    elsif quarters != 0
-    coins [:quarters]=quarters
-    cents=cents-quarters*25
+  pennies = cents/25
+  if pennies==0
+    coins[;pennies]=0
+    elsif pennies != 0
+    coins [:pennies]=pennies
+    cents=cents-pennies*25
   end
