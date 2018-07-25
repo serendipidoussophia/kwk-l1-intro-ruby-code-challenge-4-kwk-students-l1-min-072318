@@ -14,10 +14,10 @@ def least_coins(cents)
     coins[;nickels]=0
     elsif nickels != 0
     coins [:nickels]=nickels
-    cents=cents-nickels*25
+    cents=cents-nickels*5
   end
   
-  dimes = cents/25
+  dimes = cents/10
   if dimes==0
     coins[;dimes]=0
     elsif dimes != 0
