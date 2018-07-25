@@ -30,5 +30,4 @@ def least_coins(cents)
     coins[;pennies]=0
     elsif pennies != 0
     coins [:pennies]=pennies
-    cents=cents-pennies*1
   end
